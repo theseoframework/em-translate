@@ -3,11 +3,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plugins - The SEO Framework - Extension Manager - "
-"version 2.6.1\n"
+"version 2.6.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/The-SEO-Framework-"
 "Extension-Manager\n"
-"POT-Creation-Date: 2023-02-07T14:25:57+00:00\n"
-"PO-Revision-Date: 2023-02-08 11:41+1000\n"
+"POT-Creation-Date: 2023-06-21T22:04:00+00:00\n"
+"PO-Revision-Date: 2023-06-22 14:37+1000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.1\n"
 
 #. Plugin Name of the plugin
 msgid "The SEO Framework - Extension Manager"
@@ -264,85 +264,37 @@ msgstr ""
 msgid "Google Analytics"
 msgstr "Google Analytics"
 
-#. translators: %s = Tracking ID documentation link. Markdown.
+#. translators: %s = Measurement ID documentation link. Markdown.
 #: extensions/essentials/cord/trunk/inc/classes/admin.class.php:96
-msgid "Start tracking with [Google Analytics](%s) by filling in a Tracking ID."
+msgid ""
+"Start tracking with [Google Analytics](%s) by filling in a Measurement ID."
 msgstr ""
-"Comienza a rastrear con [Google Analytics](%s) rellenando un ID de píxel."
+"Comienza a rastrear con [Google Analytics](%s) rellenando un ID de medida."
 
 #: extensions/essentials/cord/trunk/inc/classes/admin.class.php:110
-#: extensions/essentials/cord/trunk/inc/classes/admin.class.php:186
+msgid "Measurement ID"
+msgstr "ID de la medida"
+
+#. translators: %s = Tracking ID documentation link. Markdown.
+#: extensions/essentials/cord/trunk/inc/classes/admin.class.php:113
+msgid "Get your [Measurement ID](%s)."
+msgstr "Obtén tu [ID de medida](%s)."
+
+#: extensions/essentials/cord/trunk/inc/classes/admin.class.php:143
+msgid "Meta Pixel"
+msgstr "Meta píxel"
+
+#. translators: %s = Tracking ID documentation link. Markdown.
+#: extensions/essentials/cord/trunk/inc/classes/admin.class.php:146
+msgid "Start tracking with [Meta pixel](%s) by filling in a Pixel ID."
+msgstr "Comienza a rastrear con [Meta pixel](%s) rellenando un ID de píxel."
+
+#: extensions/essentials/cord/trunk/inc/classes/admin.class.php:160
 msgid "Tracking ID"
 msgstr "ID de rastreo"
 
 #. translators: %s = Tracking ID documentation link. Markdown.
-#: extensions/essentials/cord/trunk/inc/classes/admin.class.php:113
-msgid "Get your [Tracking ID](%s)."
-msgstr "Obtenga tu [ID de rastreo](%s)."
-
-#: extensions/essentials/cord/trunk/inc/classes/admin.class.php:127
-msgid "Enhanced Link Attribution"
-msgstr "Atribución de enlace mejorado"
-
-#. translators: %s = Tracking ID documentation link. Markdown.
-#: extensions/essentials/cord/trunk/inc/classes/admin.class.php:130
-msgid ""
-"You can improve the accuracy of links clicked with [Enhanced Link "
-"Attribution](%s)."
-msgstr ""
-"Puedes mejorar la precisión de los enlaces en los que haces clic con "
-"[Atribución de enlace mejorado](%s)."
-
-#: extensions/essentials/cord/trunk/inc/classes/admin.class.php:133
-msgid ""
-"Use the \"Page Analytics (by Google)\" browser extension for Google Chrome "
-"to analyze the information collected. Custom theme development may be "
-"required to take full advantage of this feature."
-msgstr ""
-"Usa la extensión del navegador «Page Analytics (por Google)» para Google "
-"Chrome para analizar la información recopilada. El desarrollo de temas "
-"personalizados puede ser necesario para aprovechar al máximo esta "
-"característica."
-
-#: extensions/essentials/cord/trunk/inc/classes/admin.class.php:136
-msgid "Enable Enhanced Link Attribution?"
-msgstr "¿Activar la atribución de enlace mejorado?"
-
-#: extensions/essentials/cord/trunk/inc/classes/admin.class.php:147
-msgid "IP Anonymization"
-msgstr "Anonimización de IP"
-
-#. translators: %s = Tracking ID documentation link. Markdown.
-#: extensions/essentials/cord/trunk/inc/classes/admin.class.php:150
-msgid ""
-"You can protect the identity of your visitors through [IP anonymization](%s)."
-msgstr ""
-"Puedes proteger la identidad de tus visitantes a través del [anonimato de IP]"
-"(%s)."
-
-#: extensions/essentials/cord/trunk/inc/classes/admin.class.php:153
-msgid ""
-"This feature is at the cost of a slight possibility of inconsistent data."
-msgstr ""
-"Esta característica es a costa de una ligera posibilidad de datos "
-"inconsistentes."
-
-#: extensions/essentials/cord/trunk/inc/classes/admin.class.php:156
-msgid "Enable IP anonymization?"
-msgstr "¿Activar el anonimato de IP?"
-
-#: extensions/essentials/cord/trunk/inc/classes/admin.class.php:169
-msgid "Facebook Pixel"
-msgstr "Facebook Pixel"
-
-#. translators: %s = Tracking ID documentation link. Markdown.
-#: extensions/essentials/cord/trunk/inc/classes/admin.class.php:172
-msgid "Start tracking with [Facebook pixel](%s) by filling in a Pixel ID."
-msgstr ""
-"Comienza a rastrear con [píxel de Facebook](%s) rellenando un ID de píxel."
-
-#. translators: %s = Tracking ID documentation link. Markdown.
-#: extensions/essentials/cord/trunk/inc/classes/admin.class.php:189
+#: extensions/essentials/cord/trunk/inc/classes/admin.class.php:163
 msgid "Get your [Pixel ID](%s)."
 msgstr "Obtén tu [ID de píxel](%s)."
 
@@ -599,7 +551,7 @@ msgstr "Metadatos de la entrada"
 msgid "Term Metadata"
 msgstr "Metadatos del término"
 
-#. translators: %s = plugin name, such as Yoost SEO
+#. translators: %s = plugin name, such as Yoast SEO
 #: extensions/free/transport/trunk/inc/classes/admin.class.php:429
 msgid "Request Importer for %s&hellip;"
 msgstr "Solicitar importador para %s&hellip;"
@@ -684,13 +636,13 @@ msgstr ""
 "Se alcanzó el límite de tiempo de transporte. Reiniciando automáticamente "
 "(los números totales pueden disminuir)&hellip;"
 
-#: extensions/free/transport/trunk/inc/classes/handler.class.php:290
+#: extensions/free/transport/trunk/inc/classes/handler.class.php:292
 msgid "Transporting time limit reached. Please try again to resume."
 msgstr ""
 "Límite de tiempo de transporte alcanzado. Por favor inténtalo de nuevo para "
 "reanudar."
 
-#: extensions/free/transport/trunk/inc/classes/handler.class.php:306
+#: extensions/free/transport/trunk/inc/classes/handler.class.php:308
 msgid ""
 "Process memory usage limit reached. Automatically restarting (total numbers "
 "might decrease)&hellip;"
@@ -698,36 +650,36 @@ msgstr ""
 "Se alcanzó el límite de uso de la memoria del proceso. Reiniciando "
 "automáticamente (los números totales pueden disminuir)&hellip;"
 
-#: extensions/free/transport/trunk/inc/classes/handler.class.php:307
+#: extensions/free/transport/trunk/inc/classes/handler.class.php:311
 msgid "Process memory usage limit reached. Please try again to resume."
 msgstr ""
 "Se alcanzó el límite de uso de la memoria del proceso. Por favor inténtalo "
 "de nuevo para reanudar."
 
 #. translators: 1,2 = data location.
-#: extensions/free/transport/trunk/inc/classes/handler.class.php:324
+#: extensions/free/transport/trunk/inc/classes/handler.class.php:328
 msgid "Starting import from \"%1$s\" to \"%2$s\"."
 msgstr "Comenzando la importación de «%1$s» a «%2$s»."
 
 #. translators: %s = unique identifier name
-#: extensions/free/transport/trunk/inc/classes/handler.class.php:338
+#: extensions/free/transport/trunk/inc/classes/handler.class.php:342
 msgid "Starting transmutation of \"%s\"."
 msgstr "Comenzando la transmutación de «%s»."
 
 #. translators: %s = data location
-#: extensions/free/transport/trunk/inc/classes/handler.class.php:351
+#: extensions/free/transport/trunk/inc/classes/handler.class.php:355
 msgid "Starting deletion of \"%s\"."
 msgstr "Comenzando el borrado de «%s»."
 
 #. translators: %d = number of items found.
-#: extensions/free/transport/trunk/inc/classes/handler.class.php:363
+#: extensions/free/transport/trunk/inc/classes/handler.class.php:367
 msgid "Found %d item."
 msgid_plural "Found %d items."
 msgstr[0] "Se encontró %d elemento."
 msgstr[1] "Se encontraron %d elementos."
 
 #. translators: %s = Unknown error reason
-#: extensions/free/transport/trunk/inc/classes/handler.class.php:426
+#: extensions/free/transport/trunk/inc/classes/handler.class.php:432
 msgid ""
 "Server stopped execution. Reason: \"%s\". Automatically restarting (total "
 "numbers might decrease)&hellip;"
@@ -736,14 +688,14 @@ msgstr ""
 "(los números totales pueden disminuir)&hellip;"
 
 #. translators: %s = Unknown error reason
-#: extensions/free/transport/trunk/inc/classes/handler.class.php:428
+#: extensions/free/transport/trunk/inc/classes/handler.class.php:434
 msgid "Server stopped execution: Reason: \"%s\". Please try again to resume."
 msgstr ""
 "El servidor detuvo la ejecución. Razones «%s». Por favor inténtalo de nuevo "
 "para reanudar."
 
 #. translators: 1 = seconds with 1 decimal (e.g. 4.2 seconds, 1.0 second), 2,3,4 = numbers
-#: extensions/free/transport/trunk/inc/classes/handler.class.php:453
+#: extensions/free/transport/trunk/inc/classes/handler.class.php:461
 msgid ""
 "Completed import in %1$s second with %2$d successful, %3$d skipped, and %4$d "
 "failed transports."
@@ -758,7 +710,7 @@ msgstr[1] ""
 "omitidos y %4$d fallidos."
 
 #. translators: %d = number
-#: extensions/free/transport/trunk/inc/classes/handler.class.php:467
+#: extensions/free/transport/trunk/inc/classes/handler.class.php:475
 msgid "Deleted %d old entry."
 msgid_plural "Deleted %d old entries."
 msgstr[0] "Borrada %d entrada antigua."
@@ -837,8 +789,8 @@ msgstr ""
 "vuelta."
 
 #: extensions/free/transport/trunk/views/layout/panes/importer.php:84
-msgid "Import"
-msgstr "Importar"
+msgid "Import and delete old data"
+msgstr "Importar y eliminar datos antiguos"
 
 #: extensions/free/transport/trunk/views/layout/panes/importer.php:99
 msgid "Meta Title"
@@ -3823,22 +3775,11 @@ msgstr "Problemas comunes"
 msgid "Control Panel"
 msgstr "Panel de control"
 
-#: inc/classes/accountactivation.class.php:177
+#: inc/classes/accountactivation.class.php:174
 msgid "API Key disconnected."
 msgstr "Clave API desconectada."
 
-#: inc/classes/accountactivation.class.php:180
-msgid "However, something went wrong with the disconnection on this website."
-msgstr "Sin embargo, algo salió mal con la desconexión en esta web."
-
-#. translators: %s: number of notices waiting
-#: inc/classes/adminpages.class.php:140
-msgid "%s notice waiting"
-msgid_plural "%s notices waiting"
-msgstr[0] "%s aviso en espera"
-msgstr[1] "%s avisos en espera"
-
-#: inc/classes/ajax.class.php:447 inc/classes/ajax.class.php:528
+#: inc/classes/ajax.class.php:443 inc/classes/ajax.class.php:524
 msgid "Image could not be processed."
 msgstr "La imagen no pudo ser procesada."
 
@@ -3904,55 +3845,55 @@ msgstr ""
 msgid "Transfer domain"
 msgstr "Transferencia de dominio"
 
-#: inc/classes/layout.class.php:273
+#: inc/classes/layout.class.php:274
 msgid "Unknown"
 msgstr "Desconocido"
 
-#: inc/classes/layout.class.php:281
+#: inc/classes/layout.class.php:282
 msgid "Decoupled"
 msgstr "Desacoplado"
 
-#: inc/classes/layout.class.php:294
+#: inc/classes/layout.class.php:295
 msgid "Account email:"
 msgstr "Correo electrónico de la cuenta:"
 
-#: inc/classes/layout.class.php:301
+#: inc/classes/layout.class.php:302
 msgid "License key:"
 msgstr "Clave de licencia:"
 
-#: inc/classes/layout.class.php:313
+#: inc/classes/layout.class.php:314
 msgid "Enterprise"
 msgstr "Empresa"
 
-#: inc/classes/layout.class.php:317
+#: inc/classes/layout.class.php:318
 #: inc/traits/manager/extensions-layout.trait.php:55
 msgid "Premium"
 msgstr "De pago"
 
-#: inc/classes/layout.class.php:321
+#: inc/classes/layout.class.php:322
 #: inc/traits/manager/extensions-layout.trait.php:53
 msgid "Essentials"
 msgstr "Esencial"
 
-#: inc/classes/layout.class.php:325
+#: inc/classes/layout.class.php:326
 #: inc/traits/manager/extensions-layout.trait.php:52
 msgid "Free"
 msgstr "Gratis"
 
 #. translators: %u = minutes number
-#: inc/classes/layout.class.php:348
+#: inc/classes/layout.class.php:349
 msgid "Next check is scheduled in %u minute."
 msgid_plural "Next check is scheduled in %u minutes."
 msgstr[0] "La siguiente comprobación está programada para dentro de %u minuto."
 msgstr[1] ""
 "La siguiente comprobación está programada para dentro de %u minutos."
 
-#: inc/classes/layout.class.php:355
+#: inc/classes/layout.class.php:356
 msgid "Account level:"
 msgstr "Nivel de la cuenta:"
 
 #. translators: `%s` = domain with markdown backtics
-#: inc/classes/layout.class.php:375
+#: inc/classes/layout.class.php:376
 msgid ""
 "The domain `%s` does not match the registered domain. If your website is "
 "accessible on multiple domains, switch to the registered domain. Otherwise, "
@@ -3962,126 +3903,126 @@ msgstr ""
 "accesible en múltiples dominios, cambia al dominio registrado. De lo "
 "contrario, desconecta la cuenta y vuelve a conectar."
 
-#: inc/classes/layout.class.php:384
+#: inc/classes/layout.class.php:385
 msgid "Valid for:"
 msgstr "Válido para:"
 
-#: inc/classes/layout.class.php:396
+#: inc/classes/layout.class.php:398
 msgid "TSF Europe"
 msgstr "TSF Europeo"
 
-#: inc/classes/layout.class.php:401
+#: inc/classes/layout.class.php:403
 msgid "TSF global"
 msgstr "TSF global"
 
-#: inc/classes/layout.class.php:406
+#: inc/classes/layout.class.php:408
 msgid "API endpoint:"
 msgstr "API de endpoint:"
 
-#: inc/classes/layout.class.php:409
+#: inc/classes/layout.class.php:411
 msgid "Outbound API connections will prefer this endpoint."
 msgstr "Las conexiones API salientes preferirán este punto final."
 
-#: inc/classes/layout.class.php:421
+#: inc/classes/layout.class.php:423
 msgid "Number of API requests left for this month."
 msgstr "Número de solicitudes de API pendientes para este mes."
 
-#: inc/classes/layout.class.php:424
+#: inc/classes/layout.class.php:426
 msgid ""
 "Only a few requests left for this month. Consider upgrading your account."
 msgstr ""
 "Solo quedan unas pocas peticiones para este mes. Considera actualizar tu "
 "cuenta."
 
-#: inc/classes/layout.class.php:427
+#: inc/classes/layout.class.php:429
 msgid "No requests left for this month. Consider upgrading your account."
 msgstr "No hay solicitudes para este mes. Considera actualizar tu cuenta."
 
-#: inc/classes/layout.class.php:431
+#: inc/classes/layout.class.php:433
 msgid "Requests remaining:"
 msgstr "Solicitudes restantes:"
 
-#: inc/classes/layout.class.php:453
+#: inc/classes/layout.class.php:455
 msgid "Account expired"
 msgstr "Caducó la cuenta"
 
-#: inc/classes/layout.class.php:456 inc/classes/layout.class.php:507
+#: inc/classes/layout.class.php:458 inc/classes/layout.class.php:509
 msgid "Less than a week"
 msgstr "Menos de una semana"
 
-#: inc/classes/layout.class.php:459 inc/classes/layout.class.php:509
+#: inc/classes/layout.class.php:461 inc/classes/layout.class.php:511
 msgid "Less than two weeks"
 msgstr "Menos de dos semanas"
 
-#: inc/classes/layout.class.php:462
+#: inc/classes/layout.class.php:464
 msgid "Less than three weeks"
 msgstr "Menos de tres semanas"
 
-#: inc/classes/layout.class.php:464
+#: inc/classes/layout.class.php:466
 msgid "Less than a month"
 msgstr "Menos de un mes"
 
-#: inc/classes/layout.class.php:466
+#: inc/classes/layout.class.php:468
 msgid "Less than two months"
 msgstr "Menos de dos meses"
 
 #. translators: %d = months number
-#: inc/classes/layout.class.php:469
+#: inc/classes/layout.class.php:471
 msgid "About %d months"
 msgstr "Acerca de %d meses"
 
-#: inc/classes/layout.class.php:477
+#: inc/classes/layout.class.php:479
 msgid "Expires in:"
 msgstr "Caduca en:"
 
-#: inc/classes/layout.class.php:504
+#: inc/classes/layout.class.php:506
 msgid "Payment processing"
 msgstr "Procesando el pago"
 
 #. translators: %d = months number
-#: inc/classes/layout.class.php:513
+#: inc/classes/layout.class.php:515
 msgid "About %d month"
 msgid_plural "About %d months"
 msgstr[0] "Alrededor de %d mes"
 msgstr[1] "Alrededor de %d meses"
 
-#: inc/classes/layout.class.php:528
+#: inc/classes/layout.class.php:530
 msgid "Payment due in:"
 msgstr "El pago vence en:"
 
-#: inc/classes/layout.class.php:532
+#: inc/classes/layout.class.php:534
 msgid "API instance:"
 msgstr "Instancia de la API:"
 
-#: inc/classes/layout.class.php:535
+#: inc/classes/layout.class.php:537
 msgid "A unique key that verifies remote API integrity."
 msgstr "Una clave única que verifica la integridad de la API remota."
 
-#: inc/classes/layout.class.php:543
+#: inc/classes/layout.class.php:545
 msgid "Local instance:"
 msgstr "Instancia local:"
 
-#: inc/classes/layout.class.php:546
+#: inc/classes/layout.class.php:548
 msgid "A unique key that verifies local API integrity."
 msgstr "Una clave única que verifica la integridad de la API local."
 
-#: inc/classes/layout.class.php:557
+#: inc/classes/layout.class.php:559
 msgid "Expected instance:"
 msgstr "Instancia esperada:"
 
-#: inc/classes/layout.class.php:560
+#: inc/classes/layout.class.php:562
 msgid "This value must match the local instance."
 msgstr "Este valor debe coincidir con la instancia local."
 
-#: inc/classes/layout.class.php:613 views/forms/key.php:16
+#: inc/classes/layout.class.php:615 views/forms/key.php:16
 msgid "License key"
 msgstr "Clave de licencia"
 
-#: inc/classes/layout.class.php:620 views/forms/key.php:17
+#: inc/classes/layout.class.php:622 views/forms/key.php:17
 msgid "License email"
 msgstr "Correo electrónico de licencia"
 
-#: inc/classes/layout.class.php:628 views/layout/pages/activation.php:70
+#: inc/classes/layout.class.php:630 views/layout/pages/activation.php:70
 msgid "Use this key"
 msgstr "Usa esta clave"
 
@@ -4107,44 +4048,44 @@ msgstr ""
 "conectarte a los servicios API. Por favor, añade `%s` a "
 "`WP_ACCESSIBLE_HOSTS`."
 
-#: inc/classes/loadadmin.class.php:368
+#: inc/classes/loadadmin.class.php:367
 msgid "Activate the SEO Extension Manager"
 msgstr "Activar el SEO de Extension Manager"
 
-#: inc/classes/loadadmin.class.php:371
+#: inc/classes/loadadmin.class.php:370
 msgid "Your extensions are only three clicks away"
 msgstr "Tus extensiones están a solo tres clics de distancia"
 
-#: inc/classes/loadadmin.class.php:516
+#: inc/classes/loadadmin.class.php:515
 msgid "No valid URL was supplied."
 msgstr "No se ha proporcionado una URL válida."
 
-#: inc/classes/loadadmin.class.php:601
+#: inc/classes/loadadmin.class.php:600
 msgid "Go to My Account"
 msgstr "Ir a Mi cuenta"
 
-#: inc/classes/loadadmin.class.php:602 views/layout/general/top.php:21
+#: inc/classes/loadadmin.class.php:601 views/layout/general/top.php:21
 msgid "My Account"
 msgstr "Mi cuenta"
 
-#: inc/classes/loadadmin.class.php:621
+#: inc/classes/loadadmin.class.php:620
 msgid "Get support via mail"
 msgstr "Obtener soporte por correo"
 
-#: inc/classes/loadadmin.class.php:622
+#: inc/classes/loadadmin.class.php:621
 msgid "Private Support"
 msgstr "Soporte privado"
 
-#: inc/classes/loadadmin.class.php:629
+#: inc/classes/loadadmin.class.php:628
 msgid "File an issue with us"
 msgstr "Presentar un problema con nosotros"
 
-#: inc/classes/loadadmin.class.php:630
+#: inc/classes/loadadmin.class.php:629
 msgid "Public Support"
 msgstr "Soporte público"
 
 #. translators: %s = extension slug
-#: inc/classes/loadadmin.class.php:906
+#: inc/classes/loadadmin.class.php:905
 msgid "Extension slug: %s"
 msgstr "Slug de extensión: %s"
 
@@ -4206,8 +4147,8 @@ msgid "This will deactivate all extensions."
 msgstr "Esto desactivará todas las extensiones."
 
 #: inc/classes/panes.class.php:583
-msgid "No options from extensions will be lost."
-msgstr "No se perderán las opciones de extensiones."
+msgid "Extension options will not be deleted."
+msgstr "Las opciones de la extensión no se eliminarán."
 
 #: inc/classes/panes.class.php:587
 msgid "Disconnect account"
@@ -4360,28 +4301,40 @@ msgid ""
 "Your account has been successfully authorized to be used on this website."
 msgstr "Tu cuenta ha sido autorizada con éxito para ser utilizada en este web."
 
-#: inc/traits/core/error.trait.php:408
+#: inc/traits/core/error.trait.php:407
 msgid "Your account has been successfully deauthorized from this website."
 msgstr "Tu cuenta ha sido desautorizada con éxito de este web."
 
-#: inc/traits/core/error.trait.php:413
+#: inc/traits/core/error.trait.php:412
+msgid "Failed to disconnect locally, please try again."
+msgstr "No se pudo desconectar localmente, por favor inténtalo de nuevo."
+
+#: inc/traits/core/error.trait.php:417
+msgid ""
+"Failed to deauthorize your account from the API server, but still "
+"disconnected locally."
+msgstr ""
+"Ha fallado la desautorización de tu cuenta desde el servidor API, pero sigue "
+"desconectada localmente."
+
+#: inc/traits/core/error.trait.php:422
 msgid "Enjoy your free extensions!"
 msgstr "¡Disfruta de tus extensiones gratuitas!"
 
-#: inc/traits/core/error.trait.php:418
+#: inc/traits/core/error.trait.php:427
 msgid "The feed has been enabled."
 msgstr "El feed ha sido activado."
 
-#: inc/traits/core/error.trait.php:423
+#: inc/traits/core/error.trait.php:432
 msgid "Successfully deactivated."
 msgstr "Se ha desactivado con éxito."
 
-#: inc/traits/core/error.trait.php:428
+#: inc/traits/core/error.trait.php:437
 msgid "Your subscription has expired or has been deactivated remotely."
 msgstr "Tu suscripción ha caducado o ha sido desactivada de forma remota."
 
 #. translators: %s = My Account
-#: inc/traits/core/error.trait.php:435
+#: inc/traits/core/error.trait.php:444
 msgid ""
 "Your subscription instance couldn't be verified. Login to the %s page and "
 "verify if this site is still connected."
@@ -4389,7 +4342,7 @@ msgstr ""
 "Tu instancia de suscripción no ha podido ser verificada. Accede a la página "
 "%s y verifica si este sitio aún está conectado."
 
-#: inc/traits/core/error.trait.php:443
+#: inc/traits/core/error.trait.php:452
 msgid ""
 "Your account level has been set to Essentials. Reload the page if it didn't "
 "take effect."
@@ -4397,7 +4350,7 @@ msgstr ""
 "Tu nivel de cuenta se ha establecido en Esencial. Vuelve a cargar la página "
 "si no tiene efecto."
 
-#: inc/traits/core/error.trait.php:451
+#: inc/traits/core/error.trait.php:460
 msgid ""
 "Your account level has been set to Premium. Reload the page if it didn't "
 "take effect."
@@ -4405,7 +4358,7 @@ msgstr ""
 "Tu nivel de cuenta se ha establecido en Premium. Vuelve a cargar la página "
 "si no tiene efecto."
 
-#: inc/traits/core/error.trait.php:459
+#: inc/traits/core/error.trait.php:468
 msgid ""
 "Your account level has been set to Enterprise. Reload the page if it didn't "
 "take effect."
@@ -4413,7 +4366,7 @@ msgstr ""
 "Tu nivel de cuenta se ha establecido en Enterprise. Vuelve a cargar la "
 "página si no tiene efecto."
 
-#: inc/traits/core/error.trait.php:472
+#: inc/traits/core/error.trait.php:481
 msgid ""
 "An error occured while verifying the options. The local instance is out of "
 "sync and enabled extensions are now inactive. If this error keeps coming "
@@ -4425,11 +4378,11 @@ msgstr ""
 "error sigue apareciendo, desconecta tu cuenta en «Cuenta y acciones» y "
 "vuelve a intentarlo."
 
-#: inc/traits/core/error.trait.php:486
+#: inc/traits/core/error.trait.php:495
 msgid "User verification failed. Please try again."
 msgstr "La verificación del usuario falló. Inténtalo de nuevo."
 
-#: inc/traits/core/error.trait.php:493
+#: inc/traits/core/error.trait.php:502
 msgid ""
 "Extension list has been tampered with. Please reinstall this plugin and try "
 "again."
@@ -4437,52 +4390,52 @@ msgstr ""
 "La lista de extensiones ha sido alterada. Por favor reinstala este plugin y "
 "vuelve a intentarlo."
 
-#: inc/traits/core/error.trait.php:498
-#: inc/traits/manager/extensions.trait.php:1053
+#: inc/traits/core/error.trait.php:507
+#: inc/traits/manager/extensions.trait.php:1048
 msgid "Extension is not compatible with your server configuration."
 msgstr "La extensión no es compatible con la configuración de tu servidor."
 
-#: inc/traits/core/error.trait.php:504
+#: inc/traits/core/error.trait.php:513
 msgid "Extension has been successfully activated."
 msgstr "La extensión ha sido activada con éxito."
 
-#: inc/traits/core/error.trait.php:509
+#: inc/traits/core/error.trait.php:518
 msgid "Extension was already activated in another browser instance."
 msgstr "La extensión ya estaba activada en otra instancia del navegador."
 
-#: inc/traits/core/error.trait.php:515
+#: inc/traits/core/error.trait.php:524
 msgid "Can't touch this."
 msgstr "No puedes tocar esto."
 
-#: inc/traits/core/error.trait.php:520
+#: inc/traits/core/error.trait.php:529
 msgid ""
 "This domain isn't connected to the API. Transfer the license and try again."
 msgstr ""
 "Este dominio no está conectado a la API. Transfiere la licencia y vuelve a "
 "intentarlo."
 
-#: inc/traits/core/error.trait.php:534
+#: inc/traits/core/error.trait.php:543
 msgid ""
 "This domain isn't connected to the API. Reconnect via Extension Manager."
 msgstr ""
 "Este dominio no está conectado a la API. Vuelve a conectar a través de "
 "Extension Manager."
 
-#: inc/traits/core/error.trait.php:539
+#: inc/traits/core/error.trait.php:548
 msgid "Extension has been successfully deactivated."
 msgstr "La extensión ha sido desactivada con éxito."
 
-#: inc/traits/core/error.trait.php:544
+#: inc/traits/core/error.trait.php:553
 msgid "Your website has been successfully connected to the Monitor API server."
 msgstr "Tu web ha sido conectado con éxito al servidor de la API de Monitor."
 
-#: inc/traits/core/error.trait.php:549
+#: inc/traits/core/error.trait.php:558
 msgid ""
 "Your site has been successfully disconnected from the Monitor API server."
 msgstr ""
 "Tu sitio se ha desconectado con éxito del servidor de la API de Monitor."
 
-#: inc/traits/core/error.trait.php:556
+#: inc/traits/core/error.trait.php:565
 msgid ""
 "The Monitor API server does not recognize your website's instance. Request "
 "reactivation."
@@ -4490,30 +4443,30 @@ msgstr ""
 "El servidor de Monitor API no reconoce la instancia de tu web. Solicitar "
 "reactivación."
 
-#: inc/traits/core/error.trait.php:563
+#: inc/traits/core/error.trait.php:572
 msgid "Your website has been marked as inactive by the Monitor API server."
 msgstr ""
 "Tu web ha sido marcado como inactivo por el servidor de API de Monitor."
 
-#: inc/traits/core/error.trait.php:568
+#: inc/traits/core/error.trait.php:577
 msgid "Crawl request is still in queue. Please try again later."
 msgstr ""
 "La solicitud de rastreo aún está en cola. Por favor, inténtalo de nuevo más "
 "tarde."
 
-#: inc/traits/core/error.trait.php:573
+#: inc/traits/core/error.trait.php:582
 msgid "Crawl request has just been submitted."
 msgstr "La solicitud de rastreo acaba de enviarse."
 
-#: inc/traits/core/error.trait.php:578
+#: inc/traits/core/error.trait.php:587
 msgid "Importer does't exist."
 msgstr "El importador no existe."
 
-#: inc/traits/core/error.trait.php:583
+#: inc/traits/core/error.trait.php:592
 msgid "Data has just been updated."
 msgstr "Los datos acaban de ser actualizados."
 
-#: inc/traits/core/error.trait.php:589
+#: inc/traits/core/error.trait.php:598
 msgid ""
 "Crawl has been requested successfully. It can take up to three minutes to be "
 "processed."
@@ -4521,11 +4474,11 @@ msgstr ""
 "Rastrear ha sido solicitado con éxito. Puede tardar hasta tres minutos para "
 "procesarse."
 
-#: inc/traits/core/error.trait.php:594
+#: inc/traits/core/error.trait.php:603
 msgid "The latest Monitor data has been recieved."
 msgstr "Se han recibido los últimos datos del Monitor."
 
-#: inc/traits/core/error.trait.php:599
+#: inc/traits/core/error.trait.php:608
 msgid ""
 "Updated site settings, but your site is now out of sync. You should fetch "
 "data."
@@ -4533,127 +4486,127 @@ msgstr ""
 "Actualizado los ajustes del sitio, pero tu sitio ahora no está sincronizado. "
 "Deberías buscar los datos."
 
-#: inc/traits/core/error.trait.php:604
+#: inc/traits/core/error.trait.php:613
 msgid "Updated site settings."
 msgstr "Ajustes del sitio actualizados."
 
-#: inc/traits/core/error.trait.php:613
+#: inc/traits/core/error.trait.php:622
 msgid "Invalid data was sent to the server."
 msgstr "Los datos no válidos fueron enviados al servidor."
 
-#: inc/traits/core/error.trait.php:618
+#: inc/traits/core/error.trait.php:627
 msgid "A database error occurred. Some changes aren't saved."
 msgstr ""
 "Se ha producido un error en la base de datos. Algunos de los cambios no se "
 "han guardado."
 
-#: inc/traits/core/error.trait.php:625
+#: inc/traits/core/error.trait.php:634
 msgid "A database error occurred. Changes aren't saved."
 msgstr ""
 "Se ha producido un error en la base de datos. Los cambios no se han guardado."
 
-#: inc/traits/core/error.trait.php:630
+#: inc/traits/core/error.trait.php:639
 msgid "All changes are saved."
 msgstr "Se han guardado los cambios."
 
-#: inc/traits/core/error.trait.php:635
+#: inc/traits/core/error.trait.php:644
 msgid "Changes are saved for one extension."
 msgstr "Los cambios se han guardado para una extensión."
 
-#: inc/traits/core/error.trait.php:640
+#: inc/traits/core/error.trait.php:649
 msgid "Transporting in session, please wait..."
 msgstr "Transportando en sesión, por favor espera..."
 
-#: inc/traits/core/error.trait.php:646
+#: inc/traits/core/error.trait.php:655
 msgid "Changes are saved."
 msgstr "Se han guardado los cambios."
 
-#: inc/traits/core/error.trait.php:651
+#: inc/traits/core/error.trait.php:660
 msgid "Timeout"
 msgstr "Tiempo agotado"
 
-#: inc/traits/core/error.trait.php:656
+#: inc/traits/core/error.trait.php:665
 msgid "Crash"
 msgstr "Caído"
 
-#: inc/traits/core/error.trait.php:661
+#: inc/traits/core/error.trait.php:670
 msgid "Done!"
 msgstr "¡Hecho!"
 
-#: inc/traits/core/error.trait.php:666
+#: inc/traits/core/error.trait.php:675
 msgid "Memory exhaustion"
 msgstr "Agotamiento de la memoria"
 
-#: inc/traits/core/error.trait.php:673
+#: inc/traits/core/error.trait.php:682
 msgid ""
 "Unable to verify if changes are saved. Refresh this page to manually verify."
 msgstr ""
 "No se puede verificar si se han guardado los cambios. Actualiza esta página "
 "para verificar manualmente."
 
-#: inc/traits/core/error.trait.php:678
+#: inc/traits/core/error.trait.php:687
 msgid "Unable to propagate request. Are you running the latest version?"
 msgstr ""
 "No ha sido posible propagar la solicitud. ¿Estás ejecutando la última "
 "versión?"
 
-#: inc/traits/core/error.trait.php:683
+#: inc/traits/core/error.trait.php:692
 msgid "Couldn't fetch data."
 msgstr "No se pudo obtener los datos."
 
-#: inc/traits/core/error.trait.php:688
+#: inc/traits/core/error.trait.php:697
 msgid ""
 "Unable to create markup. Inspect your fields for errors or contact support."
 msgstr ""
 "No ha sido posible crear el marcado. Inspecciona tus campos para detectar "
 "errores o contacta a soporte."
 
-#: inc/traits/core/error.trait.php:695
+#: inc/traits/core/error.trait.php:704
 msgid "Unable to fetch geocoding data."
 msgstr "No se han podido recuperar los datos de geocodificación."
 
-#: inc/traits/core/error.trait.php:701
+#: inc/traits/core/error.trait.php:710
 msgid "No results found. Inspect your current input."
 msgstr "No se han encontrado resultados. Inspecciona tu entrada actual."
 
-#: inc/traits/core/error.trait.php:715
+#: inc/traits/core/error.trait.php:724
 msgid "Please wait a few seconds before making another request."
 msgstr "Por favor, espera unos segundos antes de hacer otra solicitud."
 
-#: inc/traits/core/error.trait.php:720
+#: inc/traits/core/error.trait.php:729
 msgid "Too many requests in the last period. Limit will be lifted soon."
 msgstr ""
 "Demasiadas solicitudes en el último período. El límite se levantará pronto."
 
-#: inc/traits/core/error.trait.php:725
+#: inc/traits/core/error.trait.php:734
 msgid "Geocoding data received."
 msgstr "Geocodificación de datos recibidos."
 
-#: inc/traits/core/error.trait.php:731
+#: inc/traits/core/error.trait.php:740
 msgid "No definitions found. Check your spelling."
 msgstr "No se encontraron definiciones. Comprueba la ortografía."
 
-#: inc/traits/core/error.trait.php:737
+#: inc/traits/core/error.trait.php:746
 msgid "No inflections found."
 msgstr "No se han encontrado inflexiones."
 
-#: inc/traits/core/error.trait.php:743
+#: inc/traits/core/error.trait.php:752
 msgid "No synonyms found."
 msgstr "No se encontraron sinónimos."
 
-#: inc/traits/core/error.trait.php:748
+#: inc/traits/core/error.trait.php:757
 msgid "Lexical forms received."
 msgstr "Formularios lexicales recibidos."
 
-#: inc/traits/core/error.trait.php:753
+#: inc/traits/core/error.trait.php:762
 msgid "Synonyms received."
 msgstr "Sinónimos recibidos."
 
-#: inc/traits/core/error.trait.php:758
+#: inc/traits/core/error.trait.php:767
 msgid "Inflections received."
 msgstr "Inflexiones recibidas."
 
-#: inc/traits/core/error.trait.php:787
+#: inc/traits/core/error.trait.php:796
 msgid ""
 "An unknown error occurred. Contact the plugin author if this error keeps "
 "coming back."
@@ -4916,7 +4869,7 @@ msgid ""
 msgstr ""
 "Compatible con las versiones actuales de WordPress y The SEO Framework."
 
-#: inc/traits/manager/extensions.trait.php:1067
+#: inc/traits/manager/extensions.trait.php:1062
 msgid "Extension has not been activated."
 msgstr "La extensión no ha sido activada."
 
@@ -4995,6 +4948,69 @@ msgid ""
 msgstr ""
 "Una nota informativa debería haber sido colocado aquí por el código de "
 "error, pero el servidor experimentó un error."
+
+#~ msgid "Get your [Tracking ID](%s)."
+#~ msgstr "Obtenga tu [ID de rastreo](%s)."
+
+#~ msgid "Enhanced Link Attribution"
+#~ msgstr "Atribución de enlace mejorado"
+
+#~ msgid ""
+#~ "You can improve the accuracy of links clicked with [Enhanced Link "
+#~ "Attribution](%s)."
+#~ msgstr ""
+#~ "Puedes mejorar la precisión de los enlaces en los que haces clic con "
+#~ "[Atribución de enlace mejorado](%s)."
+
+#~ msgid ""
+#~ "Use the \"Page Analytics (by Google)\" browser extension for Google "
+#~ "Chrome to analyze the information collected. Custom theme development may "
+#~ "be required to take full advantage of this feature."
+#~ msgstr ""
+#~ "Usa la extensión del navegador «Page Analytics (por Google)» para Google "
+#~ "Chrome para analizar la información recopilada. El desarrollo de temas "
+#~ "personalizados puede ser necesario para aprovechar al máximo esta "
+#~ "característica."
+
+#~ msgid "Enable Enhanced Link Attribution?"
+#~ msgstr "¿Activar la atribución de enlace mejorado?"
+
+#~ msgid "IP Anonymization"
+#~ msgstr "Anonimización de IP"
+
+#~ msgid ""
+#~ "You can protect the identity of your visitors through [IP anonymization]"
+#~ "(%s)."
+#~ msgstr ""
+#~ "Puedes proteger la identidad de tus visitantes a través del [anonimato de "
+#~ "IP](%s)."
+
+#~ msgid ""
+#~ "This feature is at the cost of a slight possibility of inconsistent data."
+#~ msgstr ""
+#~ "Esta característica es a costa de una ligera posibilidad de datos "
+#~ "inconsistentes."
+
+#~ msgid "Enable IP anonymization?"
+#~ msgstr "¿Activar el anonimato de IP?"
+
+#~ msgid "Facebook Pixel"
+#~ msgstr "Facebook Pixel"
+
+#~ msgid "Import"
+#~ msgstr "Importar"
+
+#~ msgid ""
+#~ "However, something went wrong with the disconnection on this website."
+#~ msgstr "Sin embargo, algo salió mal con la desconexión en esta web."
+
+#~ msgid "%s notice waiting"
+#~ msgid_plural "%s notices waiting"
+#~ msgstr[0] "%s aviso en espera"
+#~ msgstr[1] "%s avisos en espera"
+
+#~ msgid "No options from extensions will be lost."
+#~ msgstr "No se perderán las opciones de extensiones."
 
 #~ msgid ""
 #~ "Let SEO Monitor help you improve your website. Your privacy is respected, "
